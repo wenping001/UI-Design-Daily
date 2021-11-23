@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: 'Poppins' sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.card {
+  width: 249px;
+  background: #131b2b;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.card--sm {
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+.card--lg {
+  text-align: left;
+  padding: 1.5rem 2.4rem;
+}
+
+.card--lg button {
+  width: 100%;
+  margin-top: 1rem;
+}
+.card__title + p {
+  font-size: 0.7rem;
+}
+
+.card__price {
+  margin: 1rem auto;
+  width: 100px;
+  padding: 0.8rem;
+  border: 1px solid #747c84;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 90%;
+  cursor: pointer;
+  outline: none;
+  background: #ebb34b;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 250ms ease-in-out;
+}
+
+.btn:hover {
+  background: #ffd381;
+}
+
+label {
+  font-size: 0.7rem;
+}
+input {
+  padding: 0.7rem 1rem;
+  background-color: #131b2b;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #61676d;
+  margin: 6px 0;
+  color: #747c84;
+}
+
+input::placeholder {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
